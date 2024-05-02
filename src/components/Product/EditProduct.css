@@ -1,0 +1,33 @@
+.form_element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.form_element h1 {
+  font-size: 500%;
+}
+
+.input {
+  padding: 15px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+.submit {
+  width: 20%;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  background-color: rgb(255, 51, 0);
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
